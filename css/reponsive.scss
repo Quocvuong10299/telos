@@ -1,0 +1,310 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .header{
+       
+        .top-header{
+          
+            .logo{
+              padding-left:20px;
+                .logo-title{
+                
+                  a{
+                   
+                    
+                  }
+                }
+            }
+          .menu{
+           
+           .icon-menu{
+               display: block;
+               position: absolute;
+               top:20px;
+               cursor: pointer;
+           }
+            ul{
+             display: none;
+              li{
+               
+                a{
+                 
+              }
+            }
+          }      
+        }
+    }
+}
+
+.banner{
+//    height: 100%;
+    .content-banner{
+     
+      padding-left: 1em;
+      h1{
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 58px;
+      }
+      .btn-slider{
+        
+        position: absolute;
+        left: 30%;
+        z-index: 999;
+        button{
+          &:hover{
+            background-color: #fff;
+            a{
+              color: #FFB511;
+              text-decoration: none;
+            }
+          }
+          a{
+           
+          }
+          }
+        }
+      }
+    }
+
+    // ==================
+    .content{
+        padding:0 1em 0 1em;
+        width:100%;
+        .row{
+            position: relative;
+            .about-us{
+              position: relative;
+              h1{
+                font-family: "Muli", sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 39px;
+                text-transform: uppercase;
+                color: #333333;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+                margin-bottom: 40px;
+                padding-left: 2em;
+              }
+             
+            }
+            .title-about{
+              width: 100%;
+              span{
+                font-style: normal;
+                font-size: 18px;
+                line-height: 27px;
+                color: #333333;
+                max-width: 734px;
+                font-weight: normal;
+                width: 100%;
+              }
+            }
+          }
+          .ctn-why{
+            padding-top:5em;
+            
+            .row{
+              width:100%;
+              text-align: center;
+              padding-bottom: 1em;
+              .img-cnt{
+                  img{
+                      padding-top: 2em;
+                  }
+              }
+              h1{
+                display: block;
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 26px;
+                color: #333333;
+                margin-bottom: 6px;
+                margin-top:0.5em;
+              }
+              span{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                color: #333333;
+                font-family: "Muli", sans-serif;
+                
+              }
+            }
+          }
+    }
+
+    // ==============
+    .show1,.show2{
+        padding: 0;
+        .row{
+          overflow: hidden;
+          padding:0 1em 0 1em;
+          margin: 0;
+          .pic{
+            padding:0;
+            position: relative;
+            overflow: hidden;
+            
+            img{
+              transition: all 0.3s ease;
+              width:100%;
+              vertical-align: middle;
+              border-style: none;
+              height: 100%;
+              padding:0;
+              overflow: hidden;
+              position: relative;
+            
+              &:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: all 0.3s ease;
+              }
+            }
+          }
+        }
+      }
+    //   ========
+    .end-main{
+        padding:0 1em 0 1em;
+        margin-top: 4em;
+        width:100%;
+        
+      }
+    //   ============
+    .list-value{
+        padding:0 1em 0 1em;
+        position: relative;
+        .title-value{
+          h2{
+          background: #000;
+          width:100%;
+          margin: 20px 0;
+          padding: 8px 0px;
+          font-family: "Montserrat", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 17px;
+          color: #FFFFFF;
+          }
+        }
+        .list-content{
+         padding:0;
+          .list-name{
+            .name1,.name2{
+              display: flex;
+              justify-content: space-between;
+              width:100%;
+              position: relative;
+              
+              h3{
+                position: relative;
+                 width:max-content;
+                padding-right: 10px;
+                display: block;
+                height: max-content;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                color: #333333;
+              }
+              p{
+                  display: none;
+                // background: #fff;
+                // position: relative;
+                // width: 50%;
+                // left: 0;
+                // z-index: 5;
+                // border-bottom: 1px dashed rgba(51, 51, 51, 0.7);
+              }
+              .money{
+                position: absolute;
+                right:0;
+                top:-0.3em;
+                z-index: 2222;
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                
+              }
+            }
+          }
+          .btn-value{
+            margin-top: 3em;
+            button{
+              background: #FFB511;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+              border-radius: 5px;
+              display: block;
+              text-align: center;
+              width: max-content;
+              padding: 18px 36px;
+              cursor: pointer;
+              outline: none;
+              border: none;
+              z-index: 5;
+              transition: all 0.3s ease;
+              &:hover{
+                background: #fff;
+                transition: all 0.3s ease;  
+                a{
+                  color:#FFB511;
+                }
+              }
+              a{
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+                color: #FFFBF0;
+                text-decoration: none;
+              }
+            }
+        }
+        
+      
+          .value-list{
+            position: absolute;
+           left:70%;
+           top:15%;
+            margin-right:10em;
+            z-index: 2222;
+            font-family: "Montserrat", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 17px;
+            text-align: center;
+            color: #FFFFFF;
+            background: linear-gradient(286.99deg, #8162A0 14.47%, #2AB2AB 94.26%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            }
+        }
+      }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

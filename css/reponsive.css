@@ -1,0 +1,259 @@
+@media (max-width: 575.98px) {
+  .header .top-header .logo {
+    padding-left: 20px;
+  }
+  .header .top-header .menu .icon-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+  }
+  .header .top-header .menu ul {
+    display: none;
+  }
+  .banner .content-banner {
+    padding-left: 1em;
+  }
+  .banner .content-banner h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 58px;
+  }
+  .banner .content-banner .btn-slider {
+    position: absolute;
+    left: 30%;
+    z-index: 999;
+  }
+  .banner .content-banner .btn-slider button:hover {
+    background-color: #fff;
+  }
+  .banner .content-banner .btn-slider button:hover a {
+    color: #FFB511;
+    text-decoration: none;
+  }
+  .content {
+    padding: 0 1em 0 1em;
+    width: 100%;
+  }
+  .content .row {
+    position: relative;
+  }
+  .content .row .about-us {
+    position: relative;
+  }
+  .content .row .about-us h1 {
+    font-family: "Muli", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #333333;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding-left: 2em;
+  }
+  .content .row .title-about {
+    width: 100%;
+  }
+  .content .row .title-about span {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    max-width: 734px;
+    font-weight: normal;
+    width: 100%;
+  }
+  .content .ctn-why {
+    padding-top: 5em;
+  }
+  .content .ctn-why .row {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .content .ctn-why .row .img-cnt img {
+    padding-top: 2em;
+  }
+  .content .ctn-why .row h1 {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 6px;
+    margin-top: 0.5em;
+  }
+  .content .ctn-why .row span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    font-family: "Muli", sans-serif;
+  }
+  .show1, .show2 {
+    padding: 0;
+  }
+  .show1 .row, .show2 .row {
+    overflow: hidden;
+    padding: 0 1em 0 1em;
+    margin: 0;
+  }
+  .show1 .row .pic, .show2 .row .pic {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .show1 .row .pic img, .show2 .row .pic img {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .show1 .row .pic img:hover, .show2 .row .pic img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .end-main {
+    padding: 0 1em 0 1em;
+    margin-top: 4em;
+    width: 100%;
+  }
+  .list-value {
+    padding: 0 1em 0 1em;
+    position: relative;
+  }
+  .list-value .title-value h2 {
+    background: #000;
+    width: 100%;
+    margin: 20px 0;
+    padding: 8px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .list-value .list-content {
+    padding: 0;
+  }
+  .list-value .list-content .list-name .name1, .list-value .list-content .list-name .name2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    position: relative;
+  }
+  .list-value .list-content .list-name .name1 h3, .list-value .list-content .list-name .name2 h3 {
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding-right: 10px;
+    display: block;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+  }
+  .list-value .list-content .list-name .name1 p, .list-value .list-content .list-name .name2 p {
+    display: none;
+  }
+  .list-value .list-content .list-name .name1 .money, .list-value .list-content .list-name .name2 .money {
+    position: absolute;
+    right: 0;
+    top: -0.3em;
+    z-index: 2222;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .list-value .list-content .btn-value {
+    margin-top: 3em;
+  }
+  .list-value .list-content .btn-value button {
+    background: #FFB511;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 18px 36px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    z-index: 5;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .list-value .list-content .btn-value button:hover {
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .list-value .list-content .btn-value button:hover a {
+    color: #FFB511;
+  }
+  .list-value .list-content .btn-value button a {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFBF0;
+    text-decoration: none;
+  }
+  .list-value .list-content .value-list {
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    margin-right: 10em;
+    z-index: 2222;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(286.99deg, #8162A0 14.47%, #2AB2AB 94.26%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+}
+/*# sourceMappingURL=reponsive.css.map */
